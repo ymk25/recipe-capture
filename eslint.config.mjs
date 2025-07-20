@@ -84,6 +84,28 @@ export default [
       "@typescript-eslint/no-var-requires": "off",
     },
   },
+  // Jest設定
+  {
+    files: [
+      "**/*.test.{js,jsx,ts,tsx}",
+      "**/__tests__/**/*.{js,jsx,ts,tsx}",
+      "jest.setup.js",
+    ],
+    languageOptions: {
+      globals: {
+        ...globals.jest,
+      },
+    },
+  },
+  // Node.js設定
+  {
+    files: ["jest.config.js", "metro.config.js", "babel.config.js"],
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
+    },
+  },
   // 無視するファイル
   {
     ignores: [
