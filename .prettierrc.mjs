@@ -4,16 +4,16 @@
 /** @type { PrettierConfig | SortImportsConfig } */
 const config = {
   plugins: [
-  // @ianvs/prettier-plugin-sort-imports options
-  // importの順序を指定する
-  // https://github.com/IanVS/prettier-plugin-sort-imports#importorder
+    // @ianvs/prettier-plugin-sort-imports options
+    // importの順序を指定する
+    // https://github.com/IanVS/prettier-plugin-sort-imports#importorder
     "@ianvs/prettier-plugin-sort-imports",
-  // prettier-plugin-tailwindcss options
-  // tailwindの設定ファイルを指定する。デフォルトでは既存プロジェクトのtailwind.config.jsを参照します。
-  // https://github.com/tailwindlabs/prettier-plugin-tailwindcss#customizing-your-tailwind-config-path
+    // prettier-plugin-tailwindcss options
+    // tailwindの設定ファイルを指定する。デフォルトでは既存プロジェクトのtailwind.config.jsを参照します。
+    // https://github.com/tailwindlabs/prettier-plugin-tailwindcss#customizing-your-tailwind-config-path
     "prettier-plugin-tailwindcss",
   ],
-    // @ianvs/prettier-plugin-sort-imports options
+  // @ianvs/prettier-plugin-sort-imports options
   // importの順序を指定する
   // https://github.com/IanVS/prettier-plugin-sort-imports#importorder
   importOrder: [
