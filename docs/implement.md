@@ -16,10 +16,10 @@ UI開発を優先し、モックAPIを使用して画面が動作するように
 
 #### TODO リスト:
 
-- [ ] `feat: Expo TypeScript プロジェクトの初期設定`
+- [x] `feat: Expo TypeScript プロジェクトの初期設定`
   - プロジェクト構造の作成
   - TypeScript設定の最適化
-  - 絶対パスインポートの設定
+  - 絶対パスインポートの設定docs/implement.md
 
 - [ ] `feat: React Navigation の設定と基本画面構造の作成`
   - NavigationContainer の設定
